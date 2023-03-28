@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nibin Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8343646c93.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+              <h1 class="logo"><span style="color: rgb(224, 32, 99);">N</span>ibin</h1>
+              <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+              </ul>
+              <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+              <p>Web Developer</p>
+              <h1 class="hdngfont">Hi, i'm <span>Nibin</span><br> Haridas from India</h1>
+            </div>
+        </div>
+    </div>
+<!-- ---------------------------ABOUT------------------------ -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/nibin2.jpeg.jpg" alt="">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p >As a beginner MEA(R)N stack web developer, I am excited to bring my passion for technology and problem-solving to the world of web development. With my foundational knowledge of MongoDB, Express.js, Angular, and Node.js, I am eager to develop highly scalable and dynamic web applications.</p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills" >
+              <ul>
+                <li><span>MEA(R)N</span><br>MongoDB, Express.js, Angular, React, and Node.js, </li>
+                <li><span></span><br>HTML, CSS, JS</li>
+              </ul>
+            </div>
+
+           
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>Luminar Technolab</span><br>MEA(R)N Stack Development</li>
+                <li><span>Model Polytechnic College Mattakkara</span><br>Diploma in Electronics and Communication Engineering</li>
+                
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------------------services------------------------ -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>Effective web designing requires not only technical skills but also a deep understanding of user experience and the ability to create visually appealing and functional websites that meet the needs of businesses and their customers</p>
+           
+          </div>
+
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>Web Development</h2>
+            <p>Web development involves the creation and maintenance of dynamic, interactive, and user-friendly websites and web applications using programming languages such as HTML, CSS, JavaScript, and various web development frameworks.</p>
+            <!-- <a href="#">Learn more</a> -->
+          </div>
+
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>Full Stack Web Development</h2>
+            <p>Full stack development involves the mastery of both front-end and back-end technologies, allowing developers to create end-to-end web applications that are both functional and aesthetically pleasing.</p>
+            <!-- <a href="#">Learn more</a> -->
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------------------------Portfolio------------------------ -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+
+          <div class="work">
+            <img src="images/Screenshot (38).png" alt="">
+            <div class="layer">
+              <h3>Used items selling sites</h3>
+              <p>It's about a used items selling website. Here you can sell products and also purchase your interested item by contacting the seller.</p>
+              <a href="https://lnkd.in/g-8PZEm2"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div >
+
+          
+          <div class="work">
+            <img src="images/Screenshot (37).png" alt="">
+            <div class="layer">
+              <h3>Online Shopping site</h3>
+              <p>It's about a Ecommerce website, User can buy products from this site</p>
+              <a href="https://www.linkedin.com/posts/nibin-haridas_hello-everyone-this-is-my-first-project-activity-7038734511379005440-M5H9?utm_source=share&utm_medium=member_desktop"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div >
+
+          <div class="work">
+            <img src="images/Screenshot (39).png" alt="">
+            <div class="layer">
+              <h3>Personal Portfolio</h3>
+              <p>It's a personal site that to show my works and Achivements.</p>
+              <a href=""><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div >
+
+         
+        </div>
+
+        
+
+        <a id="seemore" class="btn">See more</a>
+      </div>
+    </div>
+
+    <!-- ---------------------Contact------------------------->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i>nibinharidas@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>+91 7025631430</p>
+            <div class="social-icons">
+              <a href="https://instagram.com/nibin_haridas?igshid=ZDdkNTZiNTM="><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/nibin-haridas"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="images/Nibin Haridas.pdf" download class="btn btn2">Download Cv</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your name" required>
+              <input type="email" name="Email" placeholder="Your email" required>
+              <textarea name="Message"  rows="6" placeholder="Your message"></textarea>
+              <button type="submit" class="btg btn3">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © Nibin <i class="fa-sharp fa-solid fa-heart"></i></p>
+      </div>
+    </div>
+
+    <script>
+      let seemorebtn=document.querySelector("#seemore");
+      let currentitem=3;
+
+      seemorebtn.onclick=()=>{
+        let boxes=[...document.querySelectorAll('.work-list .work')]
+        for(var i=currentitem; i < currentitem + 3; i++){
+          boxes[i].style.display = 'grid';
+        }
+        currentitem +=3;
+      }
+    </script>
+    
+    <script>
+      var tablinks=document.getElementsByClassName("tab-links")
+      var tabcontents=document.getElementsByClassName("tab-contents")
+      
+      function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+      }
+    </script>
+
+    <script>
+      var sidemenu=document.getElementById("sidemenu")
+
+      function openmenu(){
+        sidemenu.style.right="0"
+      }
+
+      function closemenu(){
+        sidemenu.style.right="-200px"
+      }
+    </script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbz3GoCm5aaHAik861M43uFrBvzPjnCrTiKhb__TMQUqZZ_h1FCg8P0kl2eX_ULK7UeP/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent Successfully"
+        setTimeout(function(){
+          msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
